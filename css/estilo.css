@@ -1,0 +1,193 @@
+/*===================================
+Geral
+===================================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*===================================
+header
+=====================================*/
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+header nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+==================================
+Bannner
+================================== */
+section.banner {
+    text-align: center;
+    margin: 0 10vw 0 10vw;
+}
+
+section.banner img {
+    width: 30%;
+}
+
+section.banner h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0;
+}
+
+section.banner p {
+    margin: 20px 0 20px 0;
+}
+
+section.banner p button {
+    background: #FF6464;
+    color: white;
+    font-size: 1.6rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+
+/*===================================
+Posts
+===================================*/
+section.posts {
+    background-color: #C8F2FF;
+    padding: 20px 10px 20px 10px;
+}
+
+section.posts ul li {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
+}
+
+section.posts ul li h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+section.posts ul li p {
+    font-size: 1.4rem;
+    margin: 15px 0px 15px 0px;
+
+    a {
+        color: #21243D;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    line-height: 1.6rem;
+}
+
+/*==================================
+Works
+==================================*/
+section.works {
+    padding: 20px 10px 20px 10px;
+}
+
+section.works ul li h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 20px 10px 20px 10px;
+}
+
+section.works ul li p {
+    font-size: 1.25rem;
+    padding: 5px 10px 5px 10px;
+}
+
+section.works ul li p.info {
+    color: #8695A4;
+}
+
+section.works ul li p span {
+    background: #142840;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 100px;
+}
+
+section.works img {
+    text-align: center;
+}
+
+/*==================================
+    Rodapé
+==================================*/
+footer {
+    text-align: center;
+    padding: 10vw 0 10vw 0;
+}
+
+footer nav p a {
+    color: #21243D;
+    font-size: 1.5rem;
+    margin: 0px 7px 0px 7px;
+}
+
+/*==================================
+    MEDIA QUERY
+==================================*/
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header {
+        padding: 5vw 5vw 5vw 5vw;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    header nav ul li {
+        margin: 0 20px 0 20px;
+    }
+
+    section h2 {
+        text-align: left;
+        margin: 20px 0px 20px 40px;
+        font-size: 2.5rem;
+    }
+
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 10vw 0 10vw;
+    }
+
+    section.banner div.texto {
+        text-align: left;
+    }
+
+    section.banner img {
+        width: 130%;
+    }
+    section.posts {
+        padding: 2.5vw 10vw 2.5vw 10vw;
+    }
+    section.posts ul {
+        display: flex;
+        margin: 20px 0 0 0;
+    }
+
+    section.posts ul li {
+        margin: 0 3vw 0 1vw;
+    }
+    section.works {
+        padding: 3vw 10vw 10vw 10vw;
+    }
+    section.works ul {
+        display: flex;
+    }
+
+}

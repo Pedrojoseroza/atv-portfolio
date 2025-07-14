@@ -156,8 +156,19 @@ section.featured h2{
         font-size: x-large;
         font-weight: bold;    
 }
-
-
+section.featured p {
+    text-align: center;
+    margin: 15px 0 15px 0 ;
+    font-size: 20px;
+}
+section.featured p span {
+    background-color: #FF6464;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    margin: 0px ;
+}
 
 
 

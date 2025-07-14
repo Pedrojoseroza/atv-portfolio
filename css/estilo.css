@@ -150,6 +150,7 @@ header nav ul li a.actual {
  section.featured h1 {
     text-align: center;
     font-size: xx-large;
+    margin: 10px 0 20px 0;
 }
 section.featured h2{
         font-size: x-large;

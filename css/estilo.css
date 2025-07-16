@@ -4,6 +4,7 @@ Geral
 html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.390625vw);
+    margin: 2vw;
 }
 
 section h2 {
@@ -148,28 +149,43 @@ header nav ul li a.actual {
     color: #FF6464;
 }
  section.featured h1 {
-    text-align: center;
     font-size: xx-large;
     margin: 10px 0 20px 0;
 }
-section.featured h2{
+section.featured p{
+    font-size: 15px;
+}
+section.featured ul li.primeiroItem h2{
         font-size: x-large;
         font-weight: bold;    
 }
-section.featured p {
-    text-align: center;
-    margin: 15px 0 15px 0 ;
+section.featured ul li.primeiroItem h3 {
+    margin: 15px 0 15px 0;
     font-size: 20px;
 }
-section.featured p span {
+section.featured ul li h3 span {
     background-color: #FF6464;
     border-radius: 10px;
-    padding: 5px;
+    padding: 1.5px;
+    margin: 10px;
     font-weight: bold;
     color: white;
-    margin: 0px ;
+    margin: 0px;
+    font-size: smaller;
 }
-
+section.featured img {
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+section.featured ul li.segundoItem h2{
+    text-align: left;
+    margin: 10px 0 20px 0;
+    font-size: xx-large;
+}
+section.featured ul li.segundoItem h3{
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+}
 
 
 /*==================================
@@ -205,7 +221,6 @@ section.featured p span {
     section.banner div.texto {
         text-align: left;
     }
-
     section.banner img {
         width: 130%;
     }
@@ -226,5 +241,37 @@ section.featured p span {
     section.works ul {
         display: flex;
     }
-
+    main {
+        margin: 2rem 3rem 2rem 3rem;
+    }
+    section.featured h1 {
+        font-size: 4rem;
+    }
+    section.featured ul li.primeiroItem h2{
+        font-size: 2rem;
+    }
+    section.featured ul li.primeiroItem h3{
+        font-size: 1.5rem;
+    }
+    section.featured ul li.primeiroItem img {
+        width: 80%;
+    }
+    section.featured ul li.primeiroItem p{
+        font-size: 20px;
+    }
+    section.featured ul li.segundoItem h2{
+        font-size: 2rem;
+    }
+    section.featured ul li.segundoItem h3{
+        font-size: 1.5rem;
+    } 
+    section.featured ul li.segundoItem img {
+        width: 80%;
+    }
+    section.featured ul li.segundoItem p{
+        font-size: 20px;
+    }
+    footer p.copyright {
+        font-size: 2rem;
+    }
 }
